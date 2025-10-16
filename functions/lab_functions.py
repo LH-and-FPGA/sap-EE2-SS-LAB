@@ -1,8 +1,8 @@
-import scipy.io
+import scipy.io # type: ignore
 import numpy as np
 import functools
 import matplotlib.pyplot as plt
-from scipy.signal import find_peaks
+from scipy.signal import find_peaks # type: ignore
 
 
 def sinegen(fs, fsig, Nsamp):
